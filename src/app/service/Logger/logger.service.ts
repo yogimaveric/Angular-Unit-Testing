@@ -11,7 +11,10 @@ constructor(){
   debugger
 }
 log(message:string){
-  debugger;
   this.message.push(message);
+}
+
+clear(){
+  this.message=[];
 }
 }
